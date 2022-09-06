@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ccc;
+}
+
+                    /* Navbar */
+
+.nav{
+    min-height: 42px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between; /*Đẩy các item cách xa nhau*/
+}
+.nav-list{
+    padding-left: 0;
+    margin: auto 16px;
+}
+.nav-item{
+    color: #fff;
+    list-style: none; /*Bỏ chấm đầu dòng cho các item*/
+    margin: 0 8px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+.form-container{
+    max-width: 720px;
+    padding: 32px;
+    margin: 36px auto 0 auto;
+    background-color: #fff;
+}
+.form-row{
+    padding: 8px 0;
+    display: flex;
+}
+.form-label{
+    min-width: 65px;
+}
+.form-input{
+    flex: 1;
+}
+

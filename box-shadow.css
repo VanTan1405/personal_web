@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* .shadow{
+    background-color: blue;
+    width: 90px;
+    height: 90px;
+    margin: 150px;
+    text-align: center;
+    line-height: 85px;
+    font-size: 110px;
+    box-shadow: 0 0 0 20px red,0 0 0 40px violet, 0 0 0 60px red ;
+    border-radius: 50%;
+} */
+/* .box   {
+    width: 100px;
+    height: 100px;
+    
+    transition-property: background-color, border;
+    transition-duration:1s 4s  ;
+
+
+}
+.hong:hover{
+    background-color: aqua;
+    height: 150px;
+    width:150px
+    
+    
+}
+.hong{
+    background-color: blueviolet;
+
+}
+.xanh{
+    background-color: blue;
+} */
+/* .menu li{
+    display: inline-block;
+    position: relative;
+}
+.menu li::after{
+    width: 0%;
+    height: 4px;
+    background-color: aqua;
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: width 1s;
+}
+.menu li:hover::after{
+    width: 100%;
+} */
+/* Lam menu trong css */
+/* .menu1 li{
+    display: inline-block;
+    position: relative;
+}
+.menu1 li::after{
+    width: 0%;
+    height: 5px;
+    background-color: blue;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    transition: width 1s;
+}
+.menu1 li:hover::after{
+    width: 100%;
+}
+.menu2{
+    float: right;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+.menu2 li{
+    display: inline-block;
+    position: relative;
+    
+}
+.menu2 li::after{
+    width: 0;
+    height: 5px;
+    position: absolute;
+    content: '';
+    background-color: aqua;
+    transition: width 1s;
+    bottom: 0;
+    left: 0;
+    
+
+}
+.menu2 li:hover::after{
+    width: 100%;
+} */
+/* .manu2 li{
+    display: inline-block;
+    position: relative;
+}
+.manu2 li::after{
+    width: 0%;
+    height: 5px;
+    background-color: blueviolet;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    transition: width 1s;
+}
+.menu2 li:hover::after{
+    width: 100%;
+}  */
+/* .menu2 li{
+    display: inline-block;
+    position: relative;
+}
+.menu2 li::after{
+    width: 0%;
+    height: 5px;
+    background-color: blueviolet;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    transition: width 1s;
+}
+.menu2 li:hover::after{
+    width: 100%;
+}  */
+
+/* .tamgiac{
+    width: 0px;
+    height: 0px;
+    margin-top: 20px;
+    margin-left:50px ;
+    border-bottom: 50px solid green;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+
+
+}
+.chuyenmau{
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    background: repeating-linear-gradient(
+        180deg,
+        black ,black 20px, yellow 20px,yellow 40px
+    );
+} */
+
+.tamgiac{
+    width: 0px;
+    height: 0px;
+    margin: 50px;
+    border-bottom: 50px solid yellow;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+
+}
+
+.chuyenmau{
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    background: repeating-linear-gradient(
+        180deg,
+        black, black 20px, yellow 20px, yellow 40px
+    );
+}
+

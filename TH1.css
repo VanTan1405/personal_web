@@ -1,0 +1,100 @@
+body{
+    text-align: left;
+    margin-top: 40px;
+    background-color: #fff;
+    
+}
+/*
+.o{
+    background-color: darkslateblue;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block ;
+    padding: 14px 35px  ;
+}
+.font p{
+    font-size: 50px;
+    
+}
+span{
+    color: dodgerblue;
+}
+.the1{
+    background-color: black;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block ;
+    padding: 14px 16px ;
+    
+    
+}
+.the2{
+    background-color: black;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block ;
+    padding: 14px 16px ;
+}
+*/
+
+/*
+.offer h2{
+    font-size: 40px;
+}
+.offer .btn2 a{
+    background-color: chocolate;
+    padding: 12px;
+}
+*/
+/* Bai 4
+.wed{
+    margin: 40px;
+}
+.wed .bot1{
+    color: #fff;
+    padding: 50px 20px;
+    background-color: darkgray;
+    text-align: center;
+    font-size: 50px;
+}
+.wed .botton{
+    color: #fff;
+    background-color: cornflowerblue;
+    padding: 20px 30px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+p{
+    color: lightgrey;
+}
+.wed .botton:hover{
+    background-color: brown;
+    color: blue;
+}*/
+/*Bai 5
+.bot{
+    margin: 40px;
+}
+.bot .bot1{
+    float: left;
+}
+p{
+    float: right;
+}*/
+.bot{
+    background-color: burlywood;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin: 100px 300px ;
+    padding: 30px;
+    border: solid 1px black;
+}
+h1{
+    color: red;
+}
+p{
+    color: green;
+    font-size: 30px;
+}

@@ -1,0 +1,17 @@
+/* cach 2 external tao ra 1 file ben ngoai (project hoac link ngoai wed nao do) su dungcap the link dan den file css do    */
+h2{
+    color: aqua;
+    font-size: 35px;
+}
+#ab{
+    color: red;
+}
+.ba{
+    color: aqua;
+}
+:root{
+    --text-color: blue;
+}
+h2{
+    color: var(--text-color);
+}

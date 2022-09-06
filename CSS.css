@@ -1,0 +1,77 @@
+/*
+.the1{
+    background-color: aqua;
+}
+.the2{
+    background-color: blanchedalmond;
+}
+.the3{
+    background-color: brown;
+}
+div{
+    float: left;
+    padding: 100px;
+}
+
+a:visited{
+    color: chartreuse;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: blue;
+}
+.menu{
+    list-style-type: upper-roman;
+}
+*/
+.body{
+    margin: 0;
+    
+}
+.Header{
+    padding: 20px;
+    background-color: bisque;
+    text-align: center;
+}
+.link{
+    background-color: black;
+    overflow: hidden;
+}
+.link a{
+    float: left;
+    display: block;
+    padding: 14px 16px ;
+    text-align: center;
+    text-decoration: none;
+}
+.link a:hover{
+    background-color: aqua;
+    color: blue;
+}
+/* / * Tạo ba cột bằng nhau nổi cạnh nhau * / */
+.column {
+    float: left;
+    width: 29%;
+    padding: 15px;
+}
+  
+  /* / * Xóa các dấu nổi sau các cột * / */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* / * Bố cục đáp ứng - làm cho ba cột xếp chồng lên nhau thay vì cạnh nhau * / */
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+}
+.footer{
+    background-color: darkgrey;
+    padding: 14px 16px;
+    text-align: center;
+}

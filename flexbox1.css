@@ -1,0 +1,59 @@
+
+.box{
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    display: flex;
+  
+}
+.box1{
+    background-color: black;
+    color: aqua;
+   
+    /* padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px; */
+
+}
+.box2{
+    background-color: blanchedalmond;
+    /* padding: 10px;
+    /* viet ngan */
+    /* border: 10px solid #333;  */
+    
+
+}
+.box3{
+    background-color: brown;
+
+}
+
+.box4{
+    /* margin-top: 20px;
+    margin-left: 20px; */
+    background-color:chartreuse;
+
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    padding: 20px;
+    box-sizing: border-box;
+    /* net dut dashed */
+    border: 10px dashed #ccc;
+    /* do mau nen */
+    background-clip: content-box;
+    
+}
+.image{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.4zL1z9Q6dy6oMaCvb4W0GQHaEK&pid=Api&P=0&w=280&h=157),url(https://tse4.mm.bing.net/th?id=OIP.WEHsCbezlG5P-4_N59M1bQHaEK&pid=Api&P=0&w=304&h=171);
+    background-size: 100px; /*anh se bi lap*/
+    background-size: 100%; /* hoa background size auto auto*/
+    /* giai phap */
+    background-repeat: no-repeat;
+}
+

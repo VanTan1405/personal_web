@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style> .image{
+            width: 100%;
+            height: 100vh;
+            /* linear-gradient(); huong xoay 0-360 deg, mau mau diem cuoi */
+            /* background-image: linear-gradient(360deg,#333, #ccc); */
+            /* lam anh trong suot ket hop 2 cach */
+            background-image: linear-gradient(360deg, rgba(255,255,0,0.5),rgba(0,0,255,0.5)),
+            url(https://vidoco.vn/uploads/news/2018_03/nhung-trang-web-co-giao-dien-dep_1.jpg);
+            background-size: 100px; /*anh se bi lap loi dung de lam anh nen*/
+            background-size: 100%; /* hoa background size auto auto*/
+            /* giai phap */
+            background-repeat: no-repeat;
+            
+        }</style>
+       <style>
+           .image2{
+            width: 100%;
+            height: 100vh;
+            background-image: url(https://tse3.mm.bing.net/th?id=OIP.WUyfpx6NwJMtOtBpZe2QPQHaEo&pid=Api&P=0&w=251&h=157) ;
+            background-repeat: no-repeat;
+            /* Cover chap nhan che khuat lay chieu dai hon lam 100% , contain lo khoang trang*/
+            background-size: cover;
+        }
+           /*background origin  */
+       </style>
+       <style>
+           .image3{
+               width: 100%;
+               height: 100vh;
+               background-image: url(https://bizflyportal.mediacdn.vn/thumb_wm/1000,100/bizflyportal/images/tra16067254168543.jpeg);
+               background-repeat: no-repeat;
+               background-size: 100%;
+               border: 20px dashed #ccc;
+               box-sizing: border-box ;
+               /* cac lua chon background origin */
+               background-origin: padding-box;
+               background-origin: border-box;
+               background-origin: content-box;
+               
+           }
+       </style>
+       <!-- background position -->
+       <style>
+           .image4{
+               width: 100%;
+               height: 100vh;
+               background-image: url(https://img4.thuthuatphanmem.vn/uploads/2020/01/17/shopee_085754945.jpg);
+               background-repeat: no-repeat;
+               background-size: 100%;
+               border: 20px dashed #ccc;
+               box-sizing: border-box;
+                background-position: 80px 40px;
+           }
+       </style>
+       <!-- background shorthand -->
+       <style>
+           .image5{
+               width: 100%;
+               height: 100vh;
+               
+               /* viet gon: background: mau, hinh anh,no-repeat, vi tri ,size(/); */
+               background: url(https://i.ytimg.com/vi/zKLlIbzrvZ0/maxresdefault.jpg) no-repeat center / contain;
+               /* background-image: url(https://i.ytimg.com/vi/zKLlIbzrvZ0/maxresdefault.jpg);
+               background-repeat: no-repeat;
+               background-size: contain;
+               background-position: center; */
+           }
+       </style>
+       <!-- re chuot chu nhay -->
+       <style>
+           h3:hover{
+               color: chocolate;
+           }
+       </style>
+        <!-- re chuot o nhay -->
+       <style>
+           .box{
+               width: 100%;
+               height: 100px;
+               background-color: brown;
+               
+           }
+           /* .box:hover{ */
+            /* click doi mau */
+            .box:active{
+               background-color: aquamarine;
+           }
+           /* Lay phan dau - phan cuoi thuong dung cho menu*/
+           /* li:first-child{
+              color: rebeccapurple;
+              font-size: 25px;
+           }
+           li:last-child{
+               color: blue;
+           } */
+       </style>
+       <!-- CSS pseudo-elements -->
+       <style>
+           .element::before{
+               /* content: dien chu */
+               content: "";
+               display: block;
+                width: 50px;
+                height: 50px;
+                background-color: aqua;
+           }
+
+           .element::after{
+               content: "";
+               display: block;
+               width: 50px;
+               height: 50px;
+               background-color: aqua;
+           }
+           h1::first-letter{
+               color: blue;
+           }
+           h2{
+               position: relative;
+               /* Day tat ca xun duoi */
+               /* margin-top: 100px; */
+               /* de luon */
+               top: 100px;
+               /* left right .... */
+           }
+           .box9{
+               width: 100%;
+               height: 42px;
+               background-color: brown;
+               position: fixed;
+           }
+           ul{
+               height: 2000px;
+           }
+       </style>
+    </head>
+    <body>
+        <div class="image">image</div>
+        <div class="image2">dung contain</div>
+        <!-- /*background origin  */ -->
+        <div class="image3">image3</div>
+        <div class="image4">image4</div>
+        <div class="image5">image5</div>
+        <div class="box">box</div>
+        <h3>CSS pseeudo-class</h3> 
+        <ul>
+            <li>:root</li>
+            <!-- doi mau khi re chuot -->
+            <li>:hover</li> 
+            <li>:active</li>
+            <li>:first-child</li>
+            <li>:last-child</li>
+        </ul>
+        <!-- CSS pseudo-elements -->
+        <h1>pseeudo-class</h1>
+        <div class="element">
+            <ul>
+                <li>::before</li>
+                <li>::after</li>
+                <li>::fist-letter</li>
+                <li>::fist-line</li>
+                <li>::selection</li>
+            </ul>
+        </div>
+        <!-- CSS POSITION: RELATIVE -->
+        <h2>Position</h2>
+        <ul>
+            <li>Relative</li>
+            <li>Absolute</li>
+            <li>Fixed</li>
+            <li>Sticky</li>
+        </ul>
+        <div class="box9"></div>
+    </body>
+</html>

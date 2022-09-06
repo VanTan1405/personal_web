@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ccc;
+    
+}
+
+/* Navbar */
+.nav{
+   min-height: 42px;
+   display: flex;
+   background-color: antiquewhite;
+   justify-content: space-between;
+}
+
+
+/* Cách này */
+/* .nav-list:nth-child(1) {
+  margin-right: auto;
+} */
+
+/* Hoặc cách này */
+/* .nav-list:nth-child(2) {
+  margin-left: auto;
+} */
+
+.nav-list {
+   padding-left: 0;
+   margin: auto 16px;
+   
+}
+
+.nav-item {
+    color: #34495e;
+    list-style: none;
+    margin: 0 8px;
+    /* ngang hang  */
+    display: inline-block;
+    
+}
+
+/* Form layout */
+.form-container {
+    max-width: 720px;
+    padding: 32px;
+    margin: 36px auto 0 auto;
+}
+
+.form__row {
+    /* animation-direction: alternate */
+    padding: 8px 0;
+    display: flex;
+}
+
+.form__label {
+    /* dieu chinh do dai cua name va password */
+    min-width: 90px;
+}
+
+.form__input {
+    /* flex item chiem het chieu ngang */
+    flex: 1;
+}
+
+/* Column layout */
+.column-layout {
+   
+}
+
+.column-item {
+    padding: 0 16px;
+}
+
+.sidebar-one {
+    /* Chinh kich thuoc chieu ngang 1 lan */
+}
+
+.sidebar-two {
+        /* Chinh kich thuoc chieu ngang 1 lan */
+}
+
+.main-column {
+        /* Chinh kich thuoc chieu ngang 3 lan */
+}
+
+/* Feature layout */
+.feature-layout {
+   
+}
+
+/* PC, Tablet */
+@media (min-width: 740px) {
+    .feature-layout {
+        flex-direction: row;
+    }
+}
+
+.feature-item {
+    /* background-color: chartreuse;
+    min-width: fit-content;
+    width: auto;    */
+}
+.feature-item:nth-child(1) {
+}
+
+.feature-item:nth-child(2) {
+}
+
+.feature-item:nth-child(3) {
+}
+
+/* Wrap layout */
+.wrap-layout {
+    
+}
+
+.wrap-layout__item {
+   
+}
+
+/* Center layout */
+.center-layout {
+   
+}
+
+.center-layout__item {
+   
+    /*
+      Cũng có cách khác là các bạn
+      thêm 2 thuộc tính vào flex-container:
+      justify-content: center;
+      align-item: center;
+  
+      cũng cho kết quả tương tự,
+      nhưng cách margin: auto này
+      ngắn gọn hơn
+    */
+    /* căn giữa */
+}
+
+/* Chart layout */
+.chart-layout {
+   
+}
+
+.chart-layout__item {
+    
+}
+
+@keyframes growth {
+   
+}
+
+/* End */
+.the-end {
+    
+}
+
+.the-end__first {
+    
+}
+
+.the-end__second {
+    
+}
+
+.the-end__second-one {
+}
+
+.the-end__second-two {
+   
+}
